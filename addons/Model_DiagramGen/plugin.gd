@@ -98,7 +98,6 @@ func Collect_ModelFiles(scan_dir : String) -> Array:
 
 
 func Parse_ModelFiles(parsed_files):
-	print(parsed_files)
 	for file_name in parsed_files:
 		var parsed_file = File.new()
 		var valid_nodes_info = []
@@ -263,21 +262,9 @@ func Create_MarkdownFile():
 	md_file.open("res://ModelDocumentation.md", File.WRITE_READ)
 
 	var Heading = """
-<style>.mermaid svg { height: auto; }</style> <br>
 # **Model Architecture**
 ## Block Diagram
-		
-> Explains Nodes relations and interactions
-			
-### Color code
-> Origin nodes -> Black - Solid - Blocks <br>
-> Child nodes -> Red - Solid - Blocks <br>
-> Dynamic added nodes -> Red - Dotted - Blocks
-		
-### Arrows syntax
-> Parent to child relation "--->" <br>
-> Signal call relation "-.->" 
-### Diagram
+<style>.mermaid svg { height: auto; }</style> <br>
 """
 			
 	md_file.store_string(Heading)
