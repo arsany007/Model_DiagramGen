@@ -4,7 +4,6 @@
 ### Features TODO
 - [ ] Consider Nodes created in script 
 	- [x] Parse (add_child --> .tscn)
-	- [ ] Link add_child node to its .tscn
 	- [ ] Consider instance creation within loops (For,while..)
 	- [ ] Consider conditional instance creation (if,..)
 		
@@ -20,16 +19,18 @@
 	- [ ] Parse Comments??
 	- [ ] Scan scripts for functions? + add them related to the Node?
 		
-- [ ] Publish Plugin (ex https://github.com/ClarkThyLord/Voxel-Core)
+- [x] Publish Plugin (ex https://github.com/ClarkThyLord/Voxel-Core)
 	- [x] Standalone Git repo
 	- [x] Rename Plugin to Model_DiagramGen
 	- [x] How to autmatically move changes from Testing Env to the plugin repo
 	- [x] versioning (added as part of the cfg file and shall updated manually)
 	- [x] ReadMe ( plugin description, limitation, example, usage..)
 	- [x] License File
-	- [ ] Upload to asset_liberary (https://godotengine.org/asset-library/asset)
+	- [x] Upload to asset_liberary (https://godotengine.org/asset-library/asset)
 		
 - [x] Change plugin Interface ( Button --> Shortcut key)
+
+- [ ] Clean Up code redundency (Regex func)
 
 - [x] Test Env and Testing
 
@@ -38,3 +39,4 @@
   2. [x] Highlight Main node (Start Point) in diagram
   3. [x] Change is_key_pressed
   4. [ ] Clean duplicate lines in .md
+  5. [ ] Link add_child node to its .tscn
