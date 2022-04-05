@@ -22,8 +22,9 @@ Plugin to automaticaly generate block diagram reflecting nodes structure and int
 	- [ ] Scan scripts for functions? + add them related to the Node?
 		
 - [ ] Publish Plugin (ex https://github.com/ClarkThyLord/Voxel-Core)
-	- [ ] Standalone Git repo
-	- [ ] Rename Plugin to Model_DiagramGen
+	- [x] Standalone Git repo
+	- [x] Rename Plugin to Model_DiagramGen
+	- [ ] How to autmatically move changes from Testing Env to the plugin repo
 	- [ ] versioning
 	- [ ] ReadMe ( plugin description, limitation, example, usage..)
 	- [ ] License File

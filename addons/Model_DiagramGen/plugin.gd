@@ -277,6 +277,7 @@ func Create_MarkdownFile():
 ### Arrows syntax
 > Parent to child relation "--->" <br>
 > Signal call relation "-.->" 
+### Diagram
 """
 			
 	md_file.store_string(Heading)
