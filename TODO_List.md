@@ -25,7 +25,7 @@
 	- [x] Rename Plugin to Model_DiagramGen
 	- [x] How to autmatically move changes from Testing Env to the plugin repo
 	- [x] versioning (added as part of the cfg file and shall updated manually)
-	- [ ] ReadMe ( plugin description, limitation, example, usage..)
+	- [x] ReadMe ( plugin description, limitation, example, usage..)
 	- [x] License File
 	- [ ] Upload to asset_liberary (https://godotengine.org/asset-library/asset)
 		
