@@ -1,43 +1,42 @@
-# Model_DiagramGen
-Plugin to automaticaly generate block diagram reflecting nodes structure and interaction
+# About
 
 
-### Features TODO
-- [ ] Consider Nodes created in script 
-	- [x] Parse (add_child --> .tscn)
-	- [ ] Link add_child node to its .tscn
-	- [ ] Consider instance creation within loops (For,while..)
-	- [ ] Consider conditional instance creation (if,..)
-		
-- [ ] Support .cfg file for configuring the plugin
-	- [ ] Path of the model to be generated
-	- [ ] Path and Name of the generated file
-	- [ ] Notify before over-write the generated file (ON/OFF)
-	- [ ] Diagram direction (TD , LR)
-		
-- [ ] Enhance generated .md file (customization)
-	- [x] Adding Heading - with Some Model Information (Basic)
-	- [ ] Think of re-arrange the diagram to Sub-diagrams?
-	- [ ] Parse Comments??
-	- [ ] Scan scripts for functions? + add them related to the Node?
-		
-- [ ] Publish Plugin (ex https://github.com/ClarkThyLord/Voxel-Core)
-	- [x] Standalone Git repo
-	- [x] Rename Plugin to Model_DiagramGen
-	- [ ] How to autmatically move changes from Testing Env to the plugin repo
-	- [ ] versioning
-	- [ ] ReadMe ( plugin description, limitation, example, usage..)
-	- [ ] License File
-	- [ ] Upload to asset_liberary (https://godotengine.org/asset-library/asset)
-		
-- [x] Change plugin Interface ( Button --> Shortcut key)
 
-- [x] Test Env and Testing
 
-	
+# About
+Model_DiagramGen is a plugin for the [Godot](https://github.com/godotengine/godot) game engine made with GDScript,uses to automaticaly generate block diagram reflecting project's nodes structure and interaction.
 
-### Known Bugs
-  1. [x] Notification before overwriting the Generated file.
-  2. [x] Highlight Main node (Start Point) in diagram
-  3. [x] Change is_key_pressed
-  4. [ ] Clean duplicate lines in .md
+## Example
+
+()
+
+## Why Model_DIagramGen?
+- Generate in one click an High level diagram for the project
+- Help understanding the Interaction between the project's blocks/Nodes
+- Help you to explain your project to 3rd party or remin yourself once what
+
+
+## Features
+- TBD
+
+
+# Getting Model_DiagramGen
+## Godot Asset Library ([Godot Doc](https://docs.godotengine.org/en/stable/tutorials/plugins/editor/installing_plugins.html))
+Preferably, Voxel-Core is available in the [Godot Asset Library](https://godotengine.org/asset-library/asset/465), allowing you to add it directly to your project from within Godot. Create or open an existing project and press on the 'AssetLib' tab found at the top of the editor. Once the asset library has loaded, search for  '*Model_DiagramGen*'. The top result should be this plugin, press on it and you'll be given the option to download it. Press to download and once it's completed Godot will ask you to select what you'd like to install. If you only want the plugin then only select the `addons` folder.
+
+## Clone / Download
+If for whatever reason you don't want to or can't download plugin via the in-engine Godot asset library, then you can always clone or download this repository directly. Once you've cloned or downloaded this repository, you can import it directly into Godot as a project to view the various examples and edit them directly. You may as well move the plugin's folder directly into your own project’s `addons` folder.
+
+# Using Model_DiagramGen
+**NOTE:** *After adding the plugin to your project you'll need to activate it in your project's `Plugins` configuration!*
+
+Press `CTRL+G` to trigger the Plugin.
+The output will be by default generated on project root with the name `ModelDocumentation.md`
+
+---
+
+<p align="center">
+	<a href="https://github.com/arsany007/Model_DiagramGen/blob/main/LICENSE" style="vertical-align: middle;">
+		MIT LICENSE
+	</a>
+</p>
